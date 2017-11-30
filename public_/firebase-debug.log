@@ -1,0 +1,120 @@
+[debug] [2017-11-07T17:29:57.049Z] ----------------------------------------------------------------------
+[debug] [2017-11-07T17:29:57.057Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\campo\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-11-07T17:29:57.058Z] CLI Version:   3.14.0
+[debug] [2017-11-07T17:29:57.058Z] Platform:      win32
+[debug] [2017-11-07T17:29:57.059Z] Node Version:  v6.10.3
+[debug] [2017-11-07T17:29:57.060Z] Time:          Tue Nov 07 2017 11:29:57 GMT-0600 (Hora estándar central (México))
+[debug] [2017-11-07T17:29:57.060Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-07T17:29:57.098Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-07T17:29:57.100Z] > authorizing via signed-in user
+[debug] [2017-11-07T17:29:57.106Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-11-07T17:29:57.108Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/gm5QbZRQzFPujG7223UXIWIdZbFP4_W5AdWTuOFcn98',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Nov 07 2017 11:29:57 GMT-0600 (Hora estándar central (México))
+[debug] [2017-11-07T17:29:57.903Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-07T17:29:57.985Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/my-party-bridge  
+ Tue Nov 07 2017 11:29:57 GMT-0600 (Hora estándar central (México))
+[debug] [2017-11-07T17:29:58.763Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-07T17:29:58.772Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/my-party-bridge/tokens  
+ Tue Nov 07 2017 11:29:58 GMT-0600 (Hora estándar central (México))
+[debug] [2017-11-07T17:29:59.555Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\xampp\htdocs\app-mypartyBridge'...
+[info] 
+[debug] [2017-11-07T17:29:59.593Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/my-party-bridge  
+ Tue Nov 07 2017 11:29:59 GMT-0600 (Hora estándar central (México))
+[debug] [2017-11-07T17:30:00.212Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-07T17:30:00.213Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/770761413776/clients/_:getWebAppConfig  
+ Tue Nov 07 2017 11:30:00 GMT-0600 (Hora estándar central (México))
+[debug] [2017-11-07T17:30:01.146Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] Shutting down...
+[debug] [2017-11-07T22:11:19.553Z] ----------------------------------------------------------------------
+[debug] [2017-11-07T22:11:19.562Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\campo\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-11-07T22:11:19.564Z] CLI Version:   3.14.0
+[debug] [2017-11-07T22:11:19.564Z] Platform:      win32
+[debug] [2017-11-07T22:11:19.564Z] Node Version:  v6.10.3
+[debug] [2017-11-07T22:11:19.565Z] Time:          Tue Nov 07 2017 16:11:19 GMT-0600 (Hora estándar central (México))
+[debug] [2017-11-07T22:11:19.566Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-07T22:11:19.617Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-07T22:11:19.619Z] > authorizing via signed-in user
+[debug] [2017-11-07T22:11:19.641Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-11-07T22:11:19.643Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/gm5QbZRQzFPujG7223UXIWIdZbFP4_W5AdWTuOFcn98',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Nov 07 2017 16:11:19 GMT-0600 (Hora estándar central (México))
+[debug] [2017-11-07T22:11:20.419Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-07T22:11:20.491Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/my-party-bridge  
+ Tue Nov 07 2017 16:11:20 GMT-0600 (Hora estándar central (México))
+[debug] [2017-11-07T22:11:21.480Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-07T22:11:21.484Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/my-party-bridge/tokens  
+ Tue Nov 07 2017 16:11:21 GMT-0600 (Hora estándar central (México))
+[debug] [2017-11-07T22:11:22.278Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\xampp\htdocs\app-mypartyBridge'...
+[info] 
+[debug] [2017-11-07T22:11:22.292Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/my-party-bridge  
+ Tue Nov 07 2017 16:11:22 GMT-0600 (Hora estándar central (México))
+[debug] [2017-11-07T22:11:23.087Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-07T22:11:23.092Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/770761413776/clients/_:getWebAppConfig  
+ Tue Nov 07 2017 16:11:23 GMT-0600 (Hora estándar central (México))
+[debug] [2017-11-07T22:11:23.987Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] Shutting down...
+[debug] [2017-11-07T22:46:45.867Z] ----------------------------------------------------------------------
+[debug] [2017-11-07T22:46:45.874Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\campo\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-11-07T22:46:45.876Z] CLI Version:   3.14.0
+[debug] [2017-11-07T22:46:45.876Z] Platform:      win32
+[debug] [2017-11-07T22:46:45.877Z] Node Version:  v6.10.3
+[debug] [2017-11-07T22:46:45.878Z] Time:          Tue Nov 07 2017 16:46:45 GMT-0600 (Hora estándar central (México))
+[debug] [2017-11-07T22:46:45.878Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-07T22:46:45.930Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-07T22:46:45.932Z] > authorizing via signed-in user
+[debug] [2017-11-07T22:46:45.941Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/my-party-bridge  
+ Tue Nov 07 2017 16:46:45 GMT-0600 (Hora estándar central (México))
+[debug] [2017-11-07T22:46:46.078Z] Error: getaddrinfo ENOENT admin.firebase.com:443
+    at Object.exports._errnoException (util.js:1018:11)
+    at errnoException (dns.js:33:15)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+[error] 
+[error] Error: Server Error. getaddrinfo ENOENT admin.firebase.com:443
+[debug] [2017-11-07T22:47:29.614Z] ----------------------------------------------------------------------
+[debug] [2017-11-07T22:47:29.624Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\campo\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-11-07T22:47:29.626Z] CLI Version:   3.14.0
+[debug] [2017-11-07T22:47:29.626Z] Platform:      win32
+[debug] [2017-11-07T22:47:29.626Z] Node Version:  v6.10.3
+[debug] [2017-11-07T22:47:29.628Z] Time:          Tue Nov 07 2017 16:47:29 GMT-0600 (Hora estándar central (México))
+[debug] [2017-11-07T22:47:29.628Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-07T22:47:29.672Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-07T22:47:29.674Z] > authorizing via signed-in user
+[debug] [2017-11-07T22:47:29.688Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/my-party-bridge  
+ Tue Nov 07 2017 16:47:29 GMT-0600 (Hora estándar central (México))
+[debug] [2017-11-07T22:47:30.638Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-07T22:47:30.643Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/my-party-bridge/tokens  
+ Tue Nov 07 2017 16:47:30 GMT-0600 (Hora estándar central (México))
+[debug] [2017-11-07T22:47:32.183Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\xampp\htdocs\app-mypartyBridge'...
+[info] 
+[debug] [2017-11-07T22:47:32.193Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/my-party-bridge  
+ Tue Nov 07 2017 16:47:32 GMT-0600 (Hora estándar central (México))
+[debug] [2017-11-07T22:47:37.407Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-07T22:47:37.412Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/770761413776/clients/_:getWebAppConfig  
+ Tue Nov 07 2017 16:47:37 GMT-0600 (Hora estándar central (México))
+[debug] [2017-11-07T22:47:46.926Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+

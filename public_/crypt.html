@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registro</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col s12"> 
+          <span>Hola</span> <strong id="nombre"></strong> <span>te invito a mi boda</span>  
+        </div>
+      </div>
+     
+      
+      
+   </div>
+     
+
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-base64.js"></script>
+    <script>
+   var longURL = "https://app-mypartybridge.firebaseapp.com/invitacion.html?pass1=U2FsdGVkX1/UB5tJykZ/UDim89SNLPBFy3HvsibyvFuOeh36fTROLbSbBbWd80d5&pass2=d22eba780042553d92cd57e36826dd19"
+$.ajax({
+    url: 'https://www.googleapis.com/urlshortener/v1/url?key=AIzaSyA7LwC-vmsT4nUXwfs6yzKSibCXjYdzAFM',
+    type: 'POST',
+    contentType: 'application/json; charset=utf-8',
+    data: '{ longUrl: "' + longURL +'"}',
+    success: function(response) {
+        console.log(response.id);
+    }
+ });
+    </script> 
+</body>
+</html>
